@@ -1,0 +1,17 @@
+http://localhost:8081/getComponentProcessingDetails/suhasini/7075/integral/tire/2/
+http://localhost:8081/getComponentProcessingDetails/suhasini/7075/accessory/tire/2/
+
+http://localhost:8082/getPackagingAndDeliveryCharges/integral/2
+http://localhost:8082/getPackagingAndDeliveryCharges/accessory/2
+http://localhost:8761/
+
+
+
+
+
+component-processing:8081
+packing-and-delivery:8082
+eureka-naming-server:8761
+
+using springcloudAPIgateway
+http://localhost:8083/component-processing/getComponentProcessingDetails/suhasini/7075/integral/tire/2/
