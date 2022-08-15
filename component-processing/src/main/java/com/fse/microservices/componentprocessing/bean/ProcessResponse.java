@@ -2,21 +2,42 @@ package com.fse.microservices.componentprocessing.bean;
 
 import java.time.LocalDate;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@JsonIgnoreProperties({"hibernateLazyInitializer"})
 @Entity
 public class ProcessResponse {
 	
 	@Id
+	@Column(name="REQUEST_ID")
 	private long requestId;
+	
+	@Column(name="USERNAME")
 	private String username;
+	
+	@Column(name="CONTACT")
 	private long contact;
+	
+	@Column(name="COMPONENT_TYPE")
 	private String componentType;
+	
+	@Column(name="COMPONENT_NAME")
 	private String componentName;
+	
+	@Column(name="QUANTITY")
 	private int quantity;
+	
+	@Column(name="PROCESSING_CHARGE")
 	private double processingCharge;
+	
+	@Column(name="PACKAGING_AND_DELIVERY_CHARGE")
 	private double packagingAndDeliveryCharge;
+	
+	@Column(name="DATE_OF_DELIVERY")
 	private LocalDate dateOfDelivery;
 	
 	

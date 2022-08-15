@@ -6,12 +6,16 @@ http://localhost:8082/getPackagingAndDeliveryCharges/accessory/2
 http://localhost:8761/
 
 
-
-
-
 component-processing:8081
 packing-and-delivery:8082
+spring-cloud-api-gateway:8083
 eureka-naming-server:8761
 
-using springcloudAPIgateway
+through springcloudAPIgateway
+http://localhost:8083/component-processing/authenticate
 http://localhost:8083/component-processing/getComponentProcessingDetails/suhasini/7075/integral/tire/2/
+http://localhost:8083/component-processing/completeProcessing
+http://localhost:8083/component-processing/viewRequestDetails
+
+
+		
