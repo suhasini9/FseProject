@@ -46,7 +46,7 @@ public class ComponentProcessingServiceImpl implements ComponentProcessingServic
 	@Override
 	public ProcessResponse viewProcessingDetails(long requestId) {
 		// TODO Auto-generated method stub
-		return componentProcessingRepository.getById(requestId);
+		return componentProcessingRepository.findById(requestId).orElse(null);
 	}
 
 
