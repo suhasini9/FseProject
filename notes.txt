@@ -1,0 +1,39 @@
+Bhavik Vashi5:11 PM
+public static API_BASE_ENDPOINT =
+    'http://' + environment.API_IP + ':8080/api/v1.0/tweets/';
+import { environment } from 'src/environments/environment';
+Bhavik Vashi5:26 PM
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "PublicRead",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::tweet-angular-app/*"
+        }
+    ]
+}
+student123
+Bhavik Vashi5:36 PM
+(function (window) {
+  window["env"] = window["env"] || {};
+
+  // Environment variables
+  window["env"]["API_IP"] = "43.204.145.205";
+  window["env"]["debug"] = true;
+})(this);
+Bhavik Vashi5:53 PM
+<script src="./assets/env.js"></script>
+ashutosh pandey5:59 PM
+bhsvik
+you there
+Bhavik Vashi6:04 PM
+coming in 5min
+Bhavik Vashi6:11 PM
+spring.h2.console.settings.web-allow-others=true
+Bhavik Vashi6:12 PM
+spring.jpa.hibernate.ddl-auto = update
+allowOrigins = *
+cwx-yqxk-fwt

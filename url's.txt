@@ -18,4 +18,8 @@ http://localhost:8083/component-processing/completeProcessing
 http://localhost:8083/component-processing/viewRequestDetails
 
 
+65.2.138.206:8083/component-processing/authenticate
+
+Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJzdWhhc2luaSIsImlhdCI6MTY2MDk4NTgwMCwiZXhwIjoxNjYwOTg3MDAwfQ.M2O5qYq9_vQlMc2Pk2DxwQqEiNv4iJiWG7U3jOmnDVSGOo55GfDYAS2eht0GzD7pcbSC0Ry4nKFV0zqBePONeA
+
 		
