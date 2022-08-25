@@ -2,6 +2,6 @@
   window["env"] = window["env"] || {};
 
   // Environment variables
-  window["env"]["API_IP"] = "15.206.151.248";
+  window["env"]["API_IP"] = "43.205.95.255";
   window["env"]["debug"] = true;
 })(this);
