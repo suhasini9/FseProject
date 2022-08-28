@@ -48,7 +48,7 @@ public class JwtAuthenticationController {
 	private AuthenticationStatus authenticate(String username, String password) {
 		AuthenticationStatus status;
 
-		if (!username.equals("suhasini") || !password.equals("password")) {
+		if (!username.equals("pranay") || !password.equals("password")) {
 			status = new AuthenticationStatus(false, "Invalid Username/Password");
 		}
 		else {
